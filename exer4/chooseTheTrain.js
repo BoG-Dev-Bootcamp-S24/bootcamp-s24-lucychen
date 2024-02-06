@@ -35,8 +35,13 @@ const railArray = await getRealTimeRailCoordinates();
  *
  * DO NOT MODIFY railArray! You'll need it for later
  */
-function getKeysToArr(arrivals) {
-  // TODO
+function getKeysToArr(railArray) {
+  let first = railArray[0]
+  let keys = []
+  for (let key in first) { //found the keys
+    keys.push(key)
+  }
+  return keys
 }
 
 /**
@@ -51,8 +56,16 @@ function getKeysToArr(arrivals) {
  *
  * DO NOT MODIFY railArray! You'll need it for later
  */
-function getTrainComingIn1Minute(arrivals) {
-  // TODO
+function getTrainComingIn1Minute(railArray) {
+  //return railArray.forEach(rail => rail.filter(rail.WAITING_TIME <= 1))
+  //filter is for filtering an array to get another array
+  let comingArr = []
+  railArray.forEach(rail => {
+    if (rail.WAITING_TIME <= 1) {
+      comingArr.push(rail)
+    }
+  })
+  return comingArr
 }
 
 /**
@@ -83,8 +96,15 @@ function getTrainComingIn1Minute(arrivals) {
  * railArray should not be modified after running this function!
  *
  */
-function updateLineColor(arrivals) {
-  // TODO
+function updateLineColor(railArray) {
+  let filteredRail = railArray.filter(rail => rail.LINE === 'BLUE')
+  let changed = filteredRail.map(rail => {
+    let copied = {... rail}
+    copied.LINE = 'PINK'
+    return copied
+  })
+  //map: create a new list, the elements are from the bracket following map
+  return changed
 }
 
 console.log(getKeysToArr(railArray));
