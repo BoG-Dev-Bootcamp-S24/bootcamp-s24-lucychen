@@ -1,12 +1,22 @@
+.columnLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
 .navbar {
     background-color:#d3d3d3;
     width: 100vw;
     height: 10vh;
     display: flex;
+    flex-direction: row;
     justify-content: space-between; /* space-between in container make space between divs*/
+    align-items: center;
 }
 
 .headerPic {
+    height: 6vh;
     padding: 10px;
     margin: 6px; /* margin -> outside -> navbar container和logo中间; padding -> inside -> G和圆之间*/
     border-radius: 50%;
@@ -26,4 +36,42 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoPic {
+    width: 30vw;
+    margin-top: 15vh;
+}
+
+.searchBar {
+    margin-top: 7vh;
+    display: flex;
+    justify-content: center;
+}
+
+.searchBox {
+    width: 50vw;
+    height: 7vh;
+    font-size: 20px;
+    border-radius: 3vh;
+    margin-right: 1vw;
+}
+
+.searchButton {
+    background-color: #FFFFED;
+    width: 10vw;
+    height: 8vh;
+    font-size: 20px;
+    border-radius: 3vh;;
+}
+
+.footer {
+    margin-top:30vh;
 }
