@@ -61,7 +61,6 @@
     height: 7vh;
     font-size: 20px;
     border-radius: 3vh;
-    margin-right: 1vw;
 }
 
 .searchButton {
@@ -70,8 +69,14 @@
     height: 8vh;
     font-size: 20px;
     border-radius: 3vh;
+    margin-left: 1vw;
 }
 
 .footer {
     margin-top:30vh;
+}
+
+.searchSpace {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
