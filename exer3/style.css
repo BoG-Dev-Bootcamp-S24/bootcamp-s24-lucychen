@@ -5,3 +5,9 @@
     display: flex;
     justify-content:flex-start;
 }
+
+.headerPic {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
