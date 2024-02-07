@@ -3,11 +3,27 @@
     width: 100vw;
     height: 10vh;
     display: flex;
-    justify-content:flex-start;
+    justify-content: space-between; /* space-between in container make space between divs*/
 }
 
 .headerPic {
+    padding: 10px;
+    margin: 6px; /* margin -> outside -> navbar container和logo中间; padding -> inside -> G和圆之间*/
+    border-radius: 50%;
+    background-color: white;
+}
+
+.profilePic {
+    height: 8vh;
+    margin-right: 30px;
+    border-radius: 50%;
+    background-color:white;
+}
+
+.navRight {
+    width: 30vw;
+    Height: 10vh;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
 }
