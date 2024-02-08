@@ -1,3 +1,6 @@
+# Web video
+Here is the web demo video: https://drive.google.com/file/d/1BQbMYc89YgLgruxlE1zziwofyJNeHGzo/view?usp=sharing
+
 # Exercise 3 - Frontend Practice
 
 ## Description
