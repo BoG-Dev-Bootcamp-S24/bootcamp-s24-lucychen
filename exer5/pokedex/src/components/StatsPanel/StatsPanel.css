@@ -18,3 +18,7 @@
     width: 20vw;
     overflow: auto;
 }
+
+.lineHeight {
+    line-height: 1.2vh;
+}

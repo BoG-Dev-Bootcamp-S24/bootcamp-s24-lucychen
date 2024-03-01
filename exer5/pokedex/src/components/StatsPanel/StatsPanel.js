@@ -7,7 +7,7 @@ const StatsPanel = ({ displayInfo, stats, height, weight, moves, activeTab, setA
       <p className="title" onClick={() => setActiveTab('Info')}>{activeTab}</p>
       <div className="stat-container">
         {activeTab === 'Info' && displayInfo && (
-          <div>
+          <div className='lineHeight'>
             <p>Height: {height / 10} m</p>
             <p>Weight: {weight / 10} kg</p>
             {stats && stats.map && stats.map((stat, index) => (
@@ -18,12 +18,10 @@ const StatsPanel = ({ displayInfo, stats, height, weight, moves, activeTab, setA
           </div>
         )}
         {activeTab === 'Moves' && !displayInfo && (
-          <div>
-            <ul>
+          <div className='lineHeight'>
               {moves && moves.map && moves.map((move, index) => (
-                <li key={index}>{move.move.name}</li>
+                <p key={index}>{move.move.name}</p>
               ))}
-            </ul>
           </div>
         )}
       </div>
