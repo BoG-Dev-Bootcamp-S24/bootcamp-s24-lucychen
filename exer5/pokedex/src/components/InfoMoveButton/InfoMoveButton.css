@@ -1,0 +1,18 @@
+.infomove-container {
+    width: 16vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infomove-button {
+    margin-top: 5vh;
+    width: 7vw;
+    height: 6vh;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

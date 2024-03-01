@@ -1,0 +1,19 @@
+.arrow-container {
+    width: 21vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.arrow-button {
+    margin-top: 4vh;
+    width: 7vw;
+    height: 6vh;
+    font-size: 2em;
+    cursor: pointer;
+    background-color: #e5e5e5;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

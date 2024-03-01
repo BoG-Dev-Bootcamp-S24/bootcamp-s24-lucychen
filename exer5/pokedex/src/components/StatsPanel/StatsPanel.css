@@ -1,0 +1,23 @@
+.title {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.tabs {
+    display: flex;
+    margin-bottom: 3vh;
+}
+  
+.stat-container {
+    background-color: #e5e5e5;
+    padding: 1vw;
+    border-radius: 5px;
+    margin-top: 3vh;
+    height: 45vh;
+    width: 20vw;
+    overflow: auto;
+}
+  
+.active {
+    font-weight: bold;
+    justify-content: center;
+}

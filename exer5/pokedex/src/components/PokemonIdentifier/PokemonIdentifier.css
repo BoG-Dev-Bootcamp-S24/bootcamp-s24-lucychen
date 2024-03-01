@@ -1,0 +1,24 @@
+.identifier {
+    border: 2px solid black;
+    margin-bottom: 1vh;
+    width: 21vw;
+    height: 42vh;
+}
+
+.name-container {
+    background-color: #e5e5e5;
+    width: 21vw;
+    height: 6vh;
+    margin-top: 2vh;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-type {
+border-radius: 5px;
+margin-right: 5px; 
+padding: 3px 7px 3px 7px;
+}
