@@ -9,7 +9,7 @@ const App = () => {
   const [pokemonId, setPokemonId] = useState(1);
   const [pokemonData, setPokemonData] = useState(null);
   const [displayInfo, setDisplayInfo] = useState(true);
-  const [activeTab, setActiveTab] = useState('info');
+  const [activeTab, setActiveTab] = useState('Info');
 
   useEffect(() => {
     const fetchData = async () => {

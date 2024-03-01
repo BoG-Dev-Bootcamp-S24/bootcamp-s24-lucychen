@@ -1,7 +1,7 @@
 .infomove-container {
-    width: 16vw;
+    width: 22vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .infomove-button {

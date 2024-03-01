@@ -3,7 +3,7 @@ import './StatsPanel.css';
 
 const StatsPanel = ({ displayInfo, stats, height, weight, moves, activeTab, setActiveTab }) => {
   return (
-    <div>
+    <div className='stat-center'>
       <p className="title" onClick={() => setActiveTab('Info')}>{activeTab}</p>
       <div className="stat-container">
         {activeTab === 'Info' && displayInfo && (
