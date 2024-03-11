@@ -1,3 +1,4 @@
+//random pokemon page
 export default async function handler(req, res) {
     const url = "https://pokeapi.co/api/v2/pokemon/";
 
