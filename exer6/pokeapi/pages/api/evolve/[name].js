@@ -32,5 +32,6 @@ export default async function handler(req, res) {
     } else {
         res.status(400).json({message: 'method not allowed'});
         //405 -- the request method is known by the server but is not supported by the target resource
-    }         
+    }     
+    
 }
