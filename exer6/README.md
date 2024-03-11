@@ -1,4 +1,6 @@
 # Exercise 6 - Poké API
+## Demo Video
+https://drive.google.com/file/d/1pl46xtqRIskOdoAQeyS_MGnpWlxhVeCD/view?usp=sharing
 
 ## Description
 In this exercise, bootcampers will familiarize themselves with Next.js, API Endpoints, and Dynamic Routing.
